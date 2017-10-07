@@ -1,0 +1,2 @@
+# MadHacks
+MadHacks bot example.
