@@ -21,6 +21,8 @@
   "homepage": "https://github.com/SarahSexton/MadHacks#readme",
   "dependencies": {
     "botbuilder": "^3.11.0",
-    "restify": "^6.0.1"
+    "botkit": "^0.6.3",
+    "restify": "^6.0.1",
+    "whatwg-fetch": "^2.0.3"
   }
 }
