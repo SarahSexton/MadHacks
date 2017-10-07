@@ -1,0 +1,26 @@
+{
+  "name": "madhacks",
+  "version": "1.0.0",
+  "description": "\"Bot\"",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SarahSexton/MadHacks.git"
+  },
+  "keywords": [
+    "bot"
+  ],
+  "author": "Sarah Sexton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SarahSexton/MadHacks/issues"
+  },
+  "homepage": "https://github.com/SarahSexton/MadHacks#readme",
+  "dependencies": {
+    "botbuilder": "^3.11.0",
+    "restify": "^6.0.1"
+  }
+}
