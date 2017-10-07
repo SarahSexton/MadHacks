@@ -1,5 +1,6 @@
 var restify = require('restify');
 var builder = require('botbuilder');
+var serveStatic = require('serve-static-restify');
 
 // Setup Restify Server
 var server = restify.createServer();
@@ -7,10 +8,7 @@ server.listen(process.env.port || process.env.PORT || 3978, function () {
    console.log('%s listening to %s', server.name, server.url); 
 });
 
-// server.get(/^\/?.*/, restify.serveStatic({
-//     directory: __dirname,
-//     default: '/index.html'
-//    }));
+server.get(/^\/?.*/, serveStatic('/', {'index': ['index.html']}));
 
 // Create chat connector for communicating with the Bot Framework Service
 var connector = new builder.ChatConnector({
