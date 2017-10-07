@@ -1,0 +1,19 @@
+App ID
+37260967-ba8c-4b67-b330-86178074dd5e
+
+App name
+MadHacks
+
+App password
+kfMx47L23CBTRyEBpmvLVm7
+
+1bba25d5-abca-4eab-bcf3-c494a1de01c6
+
+Web secret key 
+tm2DpJ68DAM.cwA.1nc.DmSWUNQTCP9KbKlLYlCHdK6-ZT1B0u4yx47CJ5tRf6s
+
+
+Michael Bisciglia
+Joseph Wonsil
+Charles Gallagher
+Jeremiah Munson 
